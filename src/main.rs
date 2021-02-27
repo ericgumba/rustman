@@ -1,8 +1,7 @@
 use rand::prelude::*; 
 use std::io::{self};
 use std::iter::FromIterator;
-fn main() {
-    println!("Hello, world!");
+fn main() { 
     let words:[String; 12] = ["detailed".to_string(),
     "wistful".to_string(),
     "piquant".to_string(),
@@ -29,7 +28,7 @@ fn main() {
 
         protagonist.push('_');
     }
- 
+    let s = String::from_iter(protagonist);
  
 
 
